@@ -135,14 +135,23 @@ node index.js
    nano wallets.json
    ```
 2. Thêm thông tin ví của bạn theo định dạng sau:
-   ```json
+    ```json
    [
        {
            "address": "Your_Wallet_Address1",
            "privateKey": "Your_PrivateKey_Wallet1"
+       },
+       {
+           "address": "Your_Wallet_Address2",
+           "privateKey": "Your_PrivateKey_Wallet2"
        }
    ]
    ```
+
+   - **Your_Wallet_Address1**: Địa chỉ ví của bạn
+   - **Your_PrivateKey_Wallet1**: Khóa riêng (private key) của ví tương ứng
+   - Có thể thêm nhiều ví với số lượng **Proxy** tương ứng
+     
 3. Lưu và thoát bằnd lệnh **Ctrl + O** & **Ctrl + X**
 
 ### Bước 7: Chạy Ứng Dụng
